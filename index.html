@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./CDN/vue.global.js"></script>
+    <script src="./CDN/vue-router.global.js"></script>
+    <link rel="stylesheet" href="./CDN/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+<body id="app">
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <a class = "navbar-brand" href="#" style="margin-left: 1%">OLDSPICE</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#login">login</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#invise">invise</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#some">some</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#personal">personal</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#check">check</a>
+            </li>
+        </ul>
+    </nav>
+    <router-view></router-view>
+    <script type="module">
+        import {app} from "./private/app.js"
+    </script>
+</body>
+
+</html>

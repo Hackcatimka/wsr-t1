@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.mh {
+    margin-top: 100px;
+}
+.tс {
+    display: block;
+    justify-content: center;
+}
+.border {
+    border: 200px;
+}
+
+.body {
+    background-color: #f9f9f9;
+    font-size: 0.5 rem;
+}
+.mh {
+    margin-top: 6rem;
+}
+.mr {
+    margin-right: 1rem;
+}
+.mb {
+    margin-bottom: 1rem;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.header {
+    text-align: center;
+    font-size: 2rem;
+}
+.row-block {
+    width: 500px;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: dark;
+}
+.tx {
+    font-size: 5 px;
+}
+.ts {
+    font-size: 0.1 rem;
+}
